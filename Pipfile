@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.2"
+dj-database-url = "*"
+python-decouple = "*"
+django-extensions = "*"
+
+[dev-packages]
+autoflake = "*"
+autopep8 = "*"
+flake8 = "*"
+coverage = "*"
+factory-boy = "*"
+ipdb = "*"
+isort = "*"
+jupyter = "*"
+pep8 = "*"
+pip-autoremove = "*"
+pipdeptree = "*"
+pre-commit = "*"
+pycodestyle = "*"
+pylint = "*"
+pylint-django = "*"
+pylint-plugin-utils = "*"
+pyupgrade = "*"
+safety = "*"
+unittest-xml-reporting = "*"
+
+[requires]
+python_version = "3.10"
